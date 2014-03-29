@@ -1,0 +1,15 @@
+{
+  "name": "blah",
+  "scripts": [
+    "*.js"
+  ],
+  "json": [
+    "index.json"
+  ],
+  "templates": [
+    "index.html"
+  ],
+  "styles": [
+    "index.css"
+  ]
+}
