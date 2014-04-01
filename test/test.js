@@ -42,7 +42,7 @@ describe('Component Manifest', function () {
       var css = manifests[0].files[0];
       css.read(function (err, string) {
         if (err) return done(err);
-        css.string.should.equal(string);
+        string.should.equal(string);
         string.should.equal('body {\n  sexy: yes;\n}');
         done();
       })
